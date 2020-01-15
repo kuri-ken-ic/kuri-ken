@@ -1,0 +1,196 @@
+.icon_fade_container {
+	text-align: center;
+	padding-top: 4%;
+	animation-name: pic_fade_in;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  color:transparent;
+  animation-fill-mode:  forwards; 
+  opacity: 0;
+  margin-bottom: 2%;
+}
+
+.icon_fade {
+	display: inline-block;
+	position: relative;
+	width: 4vw;
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.content_fade_container {
+	text-align: center;
+	height: 40vw;
+	margin-top: max(2%, 20px);
+
+}
+
+.content_fade {
+	display: inline-block;
+	position: relative;
+	width: 40vw;
+ 	height: 40vw;
+ 	max-width: 600px;
+ 	max-height: 600px;
+ 	animation-name: pic_fade_in;
+  	animation-duration: 1.5s;
+  	animation-delay: 2s;
+  	color:transparent;
+  	animation-fill-mode:  forwards; 
+  	opacity: 0;
+}
+
+.soundcloud_fade {
+	display: inline-block;
+	position: relative;
+	width: 40vw;
+ 	height: 40vw;
+ 	max-width: 600px;
+ 	max-height: 600px;
+ 	animation-name: pic_fade_in;
+  	animation-duration: 1.5s;
+  	animation-delay: 2s;
+  	color:transparent;
+  	animation-fill-mode:  forwards; 
+  	opacity: 0;
+  	margin-left: 3%;
+
+}
+
+
+
+
+/*///////////////////////////////////////////////////*/
+.text_header_name {
+  position: relative;
+  animation-name: jump_up_top;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  padding-top:2%;
+  text-align: center;
+  color:  white;
+}
+
+.text_header_title {
+  position: relative;
+  animation-name: jump_up;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  padding-top:1%;
+  text-align: center;
+  color:  transparent;
+  animation-fill-mode:  forwards; 
+}
+
+.text_header_release {
+  position: relative;
+  animation-name: fade_in;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  padding-top:1%;
+  text-align: center;
+  color:  transparent;
+  animation-fill-mode:  forwards;
+}
+
+.january {
+  font-family: "Lucinda Bright", Georgia, serif; font-size: 3vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: px; 
+}
+
+.kuriken { 
+  font-family: "Lucinda Bright", Georgia, serif; font-size: max(40px, 6vh); font-style: normal; font-variant: normal; font-weight: 100; line-height: 51.4px; 
+}
+
+.identitycrisis {
+  font-family: "Lucinda Bright", Georgia, serif; font-size: max(60px, 10vh); font-style: normal; font-variant: normal; font-weight: 450; line-height: min(100px, 10vh);
+}
+
+@keyframes jump_up {
+  0%   {top: 25px; color:transparent;}
+  25%  {top:-25px;}
+  100% {top:0px; color:white;}
+}
+
+@keyframes jump_up_top {
+  0%   {top: 25px; color:transparent;}
+  25%  {top:-25px;}
+  100% {top:0px;}
+}
+
+@keyframes fade_in {
+  0%   {color:transparent;}
+  100% {color:white;}
+}
+
+@keyframes pic_fade_in {
+  0%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+ border-radius: 10px;
+  background: transparent;
+  clear: auto;
+}
+
+.box_video {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  background: transparent;
+  clear: auto;
+}
+
+.fade_in_class {
+  animation-name: pic_fade_in;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  padding-top:1%;
+  text-align: center;
+  opacity: 0;
+  animation-fill-mode:  forwards;
+}
+
+
+/*///////////////////////////////////////////////////*/
+
+.lyrics {
+  position: relative;
+  text-align: center;
+  margin-top: min(2%, 50px);
+  margin-bottom: min(4%, 60px);
+  color: white;
+  text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+  font-family: "Lucinda Bright", Georgia, serif; font-size: 2.5vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: px;
+}
+
+.single_song {
+  position: relative;
+  text-align: center;
+  margin-top: min(2%, 50px);
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  height: 90%;
+  margin-bottom: min(2%, 20px);
+}
+
+
+
+
