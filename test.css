@@ -66,7 +66,7 @@
   animation-name: jump_up_top;
   animation-duration: 1s;
   animation-delay: 0s;
-  padding-top:2%;
+  padding-top:0%;
   text-align: center;
   color:  white;
 }
@@ -94,12 +94,25 @@
 }
 
 .january {
-  font-family: "Lucinda Bright", Georgia, serif; font-size: 3vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: px; 
+  font-family: "Lucinda Bright", Georgia, serif; font-size: 3vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: 0px; 
 }
 
 .kuriken { 
-  font-family: "Lucinda Bright", Georgia, serif; font-size: max(40px, 6vh); font-style: normal; font-variant: normal; font-weight: 100; line-height: 51.4px; 
+  font-family: "Lucinda Bright", Georgia, serif; font-size: max(40px, 6vh); font-style: normal; font-variant: normal; font-weight: 100; line-height: 0px; 
 }
+
+.kuriken1 { 
+  font-family: "Lucinda Bright", Georgia, serif; font-size: max(40px, 6vh); font-style: normal; font-variant: normal; font-weight: 100; line-height: 0px; 
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.kuriken2 { 
+  font-family: "Lucinda Bright", Georgia, serif; font-size: max(40px, 6vh); font-style: normal; font-variant: normal; font-weight: 100; line-height: 0px; 
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 
 .identitycrisis {
   font-family: "Lucinda Bright", Georgia, serif; font-size: max(60px, 10vh); font-style: normal; font-variant: normal; font-weight: 450; line-height: min(100px, 10vh);
