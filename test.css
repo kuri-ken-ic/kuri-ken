@@ -187,7 +187,7 @@
   margin-bottom: min(4%, 60px);
   color: white;
   text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
-  font-family: "Lucinda Bright", Georgia, serif; font-size: 2.5vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: px;
+  font-family: "Lucinda Bright", Georgia, serif; font-size: min(2.5vw, 18px); font-style: normal; font-variant: normal; font-weight: 450; line-height: px;
 }
 
 .single_song {
