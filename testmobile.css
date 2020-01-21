@@ -117,6 +117,7 @@
 .identitycrisis {
   font-family: "Lucinda Bright", Georgia, serif; font-size: 7vh; font-style: normal; font-variant: normal; font-weight: 450; line-height: 1vh;
   padding-bottom: 5%;
+  margin-bottom: 8%;
 }
 
 @keyframes jump_up {
